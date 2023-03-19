@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.cabecalho{
+background-color: #ffffff;
+color: rgb(71, 88, 170);
+display: flex; /*centraliza os itens*/
+justify-content:space-around;
+padding: 12px 0; /*aumenta a margem do cabeçalho*/
+/* background-image: url(logo\ costa\ e\ silva.png); /* colocar imagem de fundo*/
+}
+.cabecalho-lista-itens{
+    display: inline-block; /* deixa os itens da lista em linha */
+    margin: 50px 20px; /* margem da lista pra primeiro num em vertical e segundo na horizontal */
+}
+
+.imagem-cabecalho{
+    width:10%;
+
+}
+
+body{
+    background-color: #8298bb;
+    color: white;  
+}
